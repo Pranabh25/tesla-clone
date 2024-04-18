@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.main{
+    height: 500vh;
+    width: 100%;
+}
+.nav{
+    padding-top: 10px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    background-color: transparent;
+    position: fixed;
+}
+.logo{
+    height: 30px;
+    width: 100px;
+    margin-left: 40px;
+    background-image: url(tesla-logo-png-2244.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.menu1 ul{
+    height: 40px;
+    width: 650px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.menu2 ul{
+    height: 40px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-right: 30px;
+}
+.screen1 a{
+    color: black;
+}
+.screen2 a{
+    color: black;
+}
+.screen3 a{
+    color: black;
+}
+.screen4 a{
+    color: black;
+}
+.screen5 a{
+    color: black;
+}
+.screen1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(M3-Homepage-Desktop-LHD.jfif);
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content:center;
+}
+.screen2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Desktop-ModelY.jfif);
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content:center;
+}
+.screen3{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Homepage-Model-S-Desktop-LHD.jfif);
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content:center;
+}
+.screen4{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Homepage-Model-X-Desktop-LHD.jfif);
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content:center;
+}
+.screen5{
+    height: 100vh;
+    width: 100%;
+    background-image: url(_25-HP-SolarPanels-D.jfif);
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content:center;
+}
+.text{
+    margin-top: 120px;
+}
+.text h1{
+    text-align: center;
+    font-size: 50px;
+}
+.button1{
+    position: absolute;
+    bottom: 15%;
+    display: flex;
+    justify-content: space-between;
+    width: 430px;
+}
+.button2{
+    position: absolute;
+    bottom: -85%;
+    display: flex;
+    justify-content: space-between;
+    width: 430px;
+}
+.button3{
+    position: absolute;
+    bottom: -185%;
+    display: flex;
+    justify-content: space-between;
+    width: 430px;
+}
+.button4{
+    position: absolute;
+    bottom: -285%;
+    display: flex;
+    justify-content: space-between;
+    width: 430px;
+}
+.button5{
+    position: absolute;
+    bottom: -385%;
+    display: flex;
+    justify-content: space-between;
+    width: 430px;
+}
+.screen1 button{
+    height: 40px;
+    width: 200px;
+    background-color:rgb(244, 244, 244);
+    border: none;
+}
+.screen2 button{
+    height: 40px;
+    width: 200px;
+    background-color:rgb(244, 244, 244);
+    border: none;
+}
+.screen3 button{
+    height: 40px;
+    width: 200px;
+    background-color:rgb(244, 244, 244);
+    border: none;
+}
+.screen4 button{
+    height: 40px;
+    width: 200px;
+    background-color:rgb(244, 244, 244);
+    border: none;
+}
+.screen5 button{
+    height: 40px;
+    width: 200px;
+    background-color:rgb(244, 244, 244);
+    border: none;   
+}
+.button1 #one{
+    background-color: rgb(0, 0, 0);
+}    
+.button1 #one a{
+    color: white;
+}
+.button2 #one{
+    background-color: rgb(0, 0, 0);
+}    
+.button2 #one a{
+    color: white;
+}
+.button3 #one{
+    background-color: rgb(0, 0, 0);
+}    
+.button3 #one a{
+    color: white;
+}
+.button4 #one{
+    background-color: rgb(0, 0, 0);
+}    
+.button4 #one a{
+    color: white;
+}
+.button5 #one{
+    background-color: rgb(0, 0, 0);
+}    
+.button5 #one a{
+    color: white;
+}
+.menu1 ul li a:link {
+    text-decoration: none;
+  }
